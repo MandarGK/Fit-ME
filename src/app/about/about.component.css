@@ -1,0 +1,86 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Main Styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    
+  }
+  a{
+    color: #333;
+    text-decoration: none;
+  }
+  h1,h2,h3{
+    padding-bottom: 20px;
+  }
+  p{
+    margin: 10px 0;
+  }
+  .container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+
+  #about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+   
+  }
+  #about-info .info-right img{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+  }
+  #about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+  .py-1{padding: 10px 0;}
+  .py-2{padding: 20px 0;}
+  .py-3{padding: 30px 0;}
+  .l-heading{
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  #testimonials{
+    height:100%;
+    background: url(https://img3.goodfon.com/original/1920x1080/9/75/dumbbell-arms-man-fitness-gym.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+  }
+  #testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  #testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  #testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+
+  @media(max-width:576px){
+    #about-info .info-left ,#about-info .info-right{
+        text-align: center;
+        float: none;
+        width: 100%;
+      }
+      #about-info .info-right{
+        margin-top: 30px;
+      }
+  }

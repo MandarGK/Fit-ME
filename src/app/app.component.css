@@ -1,0 +1,25 @@
+.navbar{
+  padding:2% 5% 2% 5%;
+ font-size: large;
+}
+
+.navbar-brand{
+  padding-left: 5px;
+}
+
+.nav-item{
+ padding: 1px 5px 1px 5px;
+}
+
+#main-footer{
+  text-align: center;
+  background-color: #333;
+  padding: 4%;
+}
+footer a{
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  
+  
+}
